@@ -36,9 +36,9 @@ module.exports = (grunt) ->
           'css/algonquindesign-github.min.css': [
             'css/normalize.css'
             'css/setup.styl'
+            'css/list-group.styl'
             'css/grid.styl'
             'css/typografier.styl'
-            'css/list-group.styl'
             'css/main.styl'
             'css/*.styl'
             '!css/common.styl'
