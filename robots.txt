@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://algonquindesign.github.io/sitemap.xml
+
+User-Agent: *
+Disallow:
