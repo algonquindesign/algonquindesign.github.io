@@ -98,11 +98,30 @@ hr
   text-align center
 
 .logo
-  max-width 200px
+  width 200px
 
-.intro
+.logo--inline
+  display block
+
   @media medium
-    margin-left: 6%
+    display none
+
+  @media large
+    display block
+
+.logo--stacked
+  display none
+  width 123px
+
+  @media medium
+    display block
+
+  @media large
+    display none
+
+// .intro
+//   @media medium
+//     margin-left: 6%
 
 .section-desc
   @media medium

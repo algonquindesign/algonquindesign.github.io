@@ -14,16 +14,6 @@ module.exports = (grunt) ->
         dest: 'img'
         ext: '.svg'
 
-    imageoptim:
-      options:
-        imageAlpha: true
-        # jpegMini: true
-        quitAfter: true
-      compress:
-        src: [
-          'img'
-        ]
-
     stylus:
       compile:
         options:
@@ -60,7 +50,6 @@ module.exports = (grunt) ->
 
   grunt.registerTask 'smush', [
     'svgmin'
-    'imageoptim'
   ]
 
   grunt.registerTask 'default', [
