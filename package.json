@@ -1,0 +1,42 @@
+{
+  "name": "algonquindesign-github",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "open source",
+    "html",
+    "css",
+    "javascript",
+    "graphic",
+    "design",
+    "college",
+    "program",
+    "typography",
+    "web",
+    "print",
+    "interaction",
+    "user",
+    "experience"
+  ],
+  "author": {
+    "name": "Thomas J Bradley",
+    "email": "hey@thomasjbradley.ca",
+    "url": "http://thomasjbradley.ca"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "grunt": "^0.4.4",
+    "grunt-contrib-stylus": "^0.15.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-imageoptim": "^1.4.1",
+    "grunt-notify": "^0.2.20",
+    "grunt-svgmin": "^0.4.0",
+    "load-grunt-tasks": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/algonquindesign/algonquindesign.github.io.git"
+  }
+}

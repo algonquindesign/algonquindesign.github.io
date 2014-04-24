@@ -1,0 +1,138 @@
+html
+  margin 0
+  overflow-x hidden
+  padding 0
+
+  background-color #fff
+
+  color #444
+  font normal 100%/1.5 "Open Sans",sans-serif
+
+  @media medium
+    font-size 105%
+
+  @media large
+    font-size 110%
+
+  @media only screen and (min-width: 80em)
+    font-size 120%
+
+  @media only screen and (min-width: 100em)
+    font-size 130%
+
+body
+  margin 0
+  overflow-x hidden
+  padding 0
+
+.brand-color
+  color brand-primary
+
+.img-flex
+  display block
+  width 100%
+
+a
+a:link
+a:visited
+  border-bottom 0.1em solid rgba(brand-primary,0.5)
+  transition all 150ms linear
+
+  color brand-primary
+  text-decoration none
+
+a:hover
+a:focus
+a:active
+  border-color #000
+  outline 0
+
+  color #000
+
+a:focus
+  outline 2px solid #000
+
+ul
+  padding 0
+
+  list-style-type none
+
+ul li
+  position relative
+
+ul li::before
+  content "•"
+  left -0.45em
+  position absolute
+
+  opacity 0.5
+
+[title="and"]
+  font-family Baskerville,Palatino,"Book Antiqua",serif
+  font-style italic
+
+hr
+  margin 0 auto 1.5rem
+  max-width 54em
+  width 90%
+
+  border 0
+  border-top 1px solid brand-medium-grey
+
+.masthead
+  background-color brand-primary
+
+.logo
+  display block
+  margin 0 auto
+  max-width 250px
+
+  background-color brand-primary
+
+  @media medium
+    margin-left 0
+    margin-right 0
+
+.logo__link
+.logo__link:link
+.logo__link:visited
+  border 0
+
+.footer
+  color #666
+
+.footer a
+.footer a:link
+.footer a:visited
+  border-color rgba(#333, 0.3)
+
+  color #333
+
+.footer a:hover
+.footer a:focus
+.footer a:active
+  border-color #000
+
+  color #000
+
+.copyright
+  text-align center
+
+  @media medium
+    text-align left
+
+.social-icons
+  height 24px
+
+  text-align center
+
+  @media medium
+    text-align right
+
+.social-icons > li
+  margin-left 0.15em
+  margin-right 0.15em
+
+  @media medium
+    margin-left 0.3em
+    margin-right 0

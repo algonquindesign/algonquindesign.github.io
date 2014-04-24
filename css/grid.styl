@@ -1,0 +1,16 @@
+@import 'grid-builder'
+
+grid-units("s", 3)
+
+@media medium
+  grid-units("m", 4, true)
+
+@media large
+  grid-units("l", 6, true)
+
+@media xlarge
+  grid-units("x", 6, true)
+
+.grid
+  margin 0 auto
+  max-width 60em
