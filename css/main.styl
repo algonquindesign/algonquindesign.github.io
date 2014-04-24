@@ -71,16 +71,31 @@ ul li::before
   font-style italic
   font-weight normal
 
-.slant
+hr
   margin 0 auto 1.5rem
-  max-width 54em
 
   border 0
   border-top 1px solid light-grey
+
+.slant
   transform rotate(2deg)
 
 .slant--reverse
   transform rotate(-2deg)
+
+.dots
+  position relative
+
+  border 0
+
+.dots::before
+  content "• • • • • • •"
+  left 0
+  position absolute
+  width 100%
+
+  color light-grey
+  text-align center
 
 .logo
   max-width 200px
@@ -92,9 +107,6 @@ ul li::before
 .section-desc
   @media medium
     margin-right 10%
-
-.footer
-  // margin-top 1
 
 .copyright
   text-align center
