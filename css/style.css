@@ -223,7 +223,6 @@ main > .container > p {
 
 footer {
   margin-top: var(--spacing-sm);
-  padding: var(--spacing-sm) 0;
   font-size: var(--font-size-small);
 }
 
@@ -242,13 +241,11 @@ footer {
 .copyright {
   margin: 0;
   text-align: center;
-  order: 2;
 }
 
 @media (min-width: 50em) {
   .copyright {
     text-align: left;
-    order: 1;
   }
 }
 
