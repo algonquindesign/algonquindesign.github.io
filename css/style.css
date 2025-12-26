@@ -223,7 +223,7 @@ main > .container > p {
 
 footer {
   margin-top: var(--spacing-sm);
-  padding: var(--spacing-lg) 0;
+  padding: var(--spacing-sm) 0;
   font-size: var(--font-size-small);
 }
 
