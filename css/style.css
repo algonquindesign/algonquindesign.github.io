@@ -17,7 +17,6 @@
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
   --spacing-lg: 2rem;
-  --spacing-xl: 3rem;
 
   --max-width: 50em;
   --gap: clamp(1rem, 2vw, 2rem);
@@ -185,7 +184,7 @@ main > .container > p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--gap);
-  margin: var(--spacing-xl) 0;
+  margin: var(--spacing-sm) 0;
 }
 
 .repo-card {
@@ -223,7 +222,7 @@ main > .container > p {
 }
 
 footer {
-  margin-top: var(--spacing-xl);
+  margin-top: var(--spacing-sm);
   padding: var(--spacing-lg) 0;
   font-size: var(--font-size-small);
 }
