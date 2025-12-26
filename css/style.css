@@ -232,12 +232,6 @@ footer {
   align-items: center;
 }
 
-@media (min-width: 50em) {
-  .footer-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .copyright {
   margin: 0;
   text-align: center;
