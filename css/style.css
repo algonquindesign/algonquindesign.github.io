@@ -230,7 +230,6 @@ footer {
 .footer-content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-md);
   align-items: center;
 }
 
